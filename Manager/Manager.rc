@@ -1,0 +1,228 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 534, 337
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FaR"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Static",IDC_STATIC,7,17,146,44
+    GROUPBOX        "Static",IDC_STATIC,168,16,145,45
+    LTEXT           "Static",IDC_STATIC2,12,27,110,11,0,WS_EX_STATICEDGE
+    CONTROL         "Static",IDC_STATIC1,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | WS_GROUP,172,27,110,11,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO1,172,44,106,182,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO,11,42,105,63,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST3,11,272,113,48,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST4,169,273,115,47,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_LIST | LVS_SHOWSELALWAYS | LVS_EDITLABELS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,64,145,164,WS_EX_ACCEPTFILES
+    CONTROL         "",IDC_LIST2,"SysListView32",LVS_LIST | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_EDITLABELS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,169,64,145,164,WS_EX_ACCEPTFILES
+    LTEXT           "Static",IDC_STATIC3,11,258,113,11,0,WS_EX_STATICEDGE
+    LTEXT           "Static",IDC_STATIC4,170,258,115,11,0,WS_EX_STATICEDGE
+    GROUPBOX        "Информация о выбраных дисках",IDC_STATIC,7,247,520,77
+    GROUPBOX        "Информация о Фаиле",IDC_STATIC,334,15,193,84
+    LISTBOX         IDC_LIST5,340,29,181,63,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Редактирование Фаила",IDC_STATIC,335,104,192,141
+    LTEXT           "Имя:",IDC_STATIC,344,114,16,8
+    EDITTEXT        IDC_EDIT1,341,125,181,24,ES_AUTOHSCROLL
+    LTEXT           "Атрибуты:",IDC_STATIC,342,153,38,8
+    PUSHBUTTON      "Сохранить изменения",IDC_BUTTON1,384,226,103,14
+    CONTROL         "Архивный",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,342,165,50,10
+    CONTROL         "Системный",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,341,179,53,10
+    CONTROL         "Скрытый",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,341,193,47,10
+    CONTROL         "Только для чтения",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,341,207,81,10
+    PUSHBUTTON      "<-",IDC_BUTTON2,287,26,20,14
+    PUSHBUTTON      "<-",IDC_BUTTON3,126,26,21,14
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 306, 270
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Начать поиск",IDC_BUTTON1,144,42,72,14
+    PUSHBUTTON      "Остановить поиск",IDC_BUTTON2,228,42,72,14
+    LTEXT           "Результат поиска",IDC_STATIC,6,66,62,8
+    LTEXT           "Введите текст для поиска:",IDC_STATIC,144,6,94,8
+    GROUPBOX        "Выберите тип поиска",IDC_STATIC,6,6,126,48
+    CONTROL         "По имени файла",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,18,18,70,10
+    CONTROL         "По тексту внутри файла",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,18,30,99,10
+    EDITTEXT        IDC_EDIT1,144,18,156,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST1,0,78,306,192,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 292, 97
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Опции создания",IDC_STATIC,6,6,132,84
+    LTEXT           "Ведите что вы хотите создать",IDC_STATIC,12,18,106,8
+    GROUPBOX        "Тип обьекта",IDC_STATIC,12,30,108,30
+    CONTROL         "Фаил",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,18,42,33,10
+    CONTROL         "Папка",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,66,42,37,10
+    LTEXT           "В каком окне хотите создать:",IDC_STATIC,12,66,103,8
+    CONTROL         "Слева",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,78,37,10
+    CONTROL         "Справа",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,78,41,10
+    LTEXT           "Введите имя и расширение если это фаил и только имя если это папка",IDC_STATIC,144,6,132,22
+    EDITTEXT        IDC_EDIT1,144,36,126,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDC_OK,144,72,50,14
+    PUSHBUTTON      "Отмена",IDC_BUTTON2,216,72,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 527
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 330
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "Фаил"
+    BEGIN
+        MENUITEM "Создать\tF1",                 ID_40001
+        MENUITEM "Переименовать\tF2",           ID_40002
+        MENUITEM "Открыть\tF3",                 ID_40003
+        MENUITEM SEPARATOR
+        MENUITEM "Выход\tF9",                   ID_40005
+    END
+    POPUP "Правка"
+    BEGIN
+        MENUITEM "Копировать\tF5",              ID_40006
+        MENUITEM "Удалить\tDel/F7",             ID_40008
+        MENUITEM "Поиск\tF8",                   ID_40009
+        MENUITEM "Переместить\tF6",             ID_40021
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS 
+BEGIN
+    VK_F1,          ID_40001,               VIRTKEY, NOINVERT
+    VK_F2,          ID_40002,               VIRTKEY, NOINVERT
+    VK_F3,          ID_40003,               VIRTKEY, NOINVERT
+    VK_F4,          ID_40004,               VIRTKEY, NOINVERT
+    VK_F9,          ID_40005,               VIRTKEY, NOINVERT
+    VK_F5,          ID_40006,               VIRTKEY, NOINVERT
+    VK_F6,          ID_40007,               VIRTKEY, NOINVERT
+    VK_DELETE,      ID_40008,               VIRTKEY, NOINVERT
+    VK_F7,          ID_40008,               VIRTKEY, NOINVERT
+    VK_F8,          ID_40009,               VIRTKEY, NOINVERT
+    VK_F6,          ID_40021,               VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+IDI_ICON2               ICON                    "icon2.ico"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
